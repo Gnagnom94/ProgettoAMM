@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <!--titolo della scheda-->
+        <title>Bacheca</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matteo Atzeni">
+        <meta name="keywords" content="Pagina della Bacheca">
     </head>
+
     <body>
-        <div>TODO write content</div>
+        <!--header contenente in titolo della pagina-->
+        <header>
+            <div id="title">
+                <h1>Bacheca</h1>
+            </div>
+        </header>
+
+        <!--Barra di navigazione tra le pagine del sito-->
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        
+        
+        <div id="divBody">
+            <div id="postList">
+                <div>
+                    <h4>Bimbo Strabico</h4>
+                    <img alt="Foto Profilo" src="img/bimbo strabico.jpg" width="100" height="100">
+                    <div>
+                    <p>
+                        Vestibulum vitae erat lacus. Duis at rhoncus risus. Etiam id pharetra turpis. Nunc ornare ex tortor, id varius ligula finibus at. Morbi vitae dolor id ipsum ullamcorper ullamcorper vel at augue. Donec ipsum nisl, posuere eget feugiat non, feugiat venenatis quam. Donec in justo fringilla, rhoncus enim quis, viverra nisl. Quisque nec dapibus orci, eget eleifend eros. Donec porttitor, mi eu rutrum fermentum, neque quam consectetur tortor, ut mattis libero justo nec erat. Ut mattis a tortor vel congue. Proin tellus ligula, feugiat vel iaculis id, iaculis vitae ligula. In id blandit lacus. Integer eu consectetur est. Cras eleifend ligula et congue dapibus. Nam vel nibh odio. Suspendisse pellentesque, velit vulputate feugiat vestibulum, ipsum ligula mattis felis, sed molestie odio leo non elit. Praesent suscipit, enim sed eleifend convallis, tortor nisi faucibus justo, nec tempor ipsum urna at nisi. Ut mattis dapibus fringilla. Nullam lacinia vehicula consectetur.
+                    </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Mr. Bean</h4>
+                    <img alt="Foto Profilo" src="img/mr bean.jpg" height="100" width="150" >
+                    <div>
+                    <p>
+                        Mauris eget orci cursus, tempus orci quis, iaculis ante. Duis ultrices, metus at tristique varius, urna urna ultrices arcu, quis molestie diam turpis vel erat. Phasellus in risus est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut aliquam nec nulla ac semper. Morbi purus elit, pretium eget ligula eu, dictum facilisis orci. Fusce fermentum ligula eros, non suscipit velit tristique vel. Quisque tempus posuere urna, eu volutpat justo. In sit amet ultrices urna. Phasellus leo nisl, consectetur a laoreet sed, vestibulum quis sapien. Sed sit amet eros molestie, tincidunt nibh quis, commodo ipsum. In euismod neque eget vulputate aliquet. Suspendisse efficitur rhoncus odio at cursus. Vestibulum at mauris at purus lacinia scelerisque vel vel diam. Phasellus at quam tempus lacus blandit volutpat. Duis imperdiet a neque ut sodales. Fusce est orci, posuere et ex eget, ornare tempus libero. Ut cursus ex ac urna blandit, in aliquam ipsum eleifend. Curabitur sollicitudin purus arcu, ut sagittis sapien blandit at. Nunc ut efficitur arcu, eu rutrum mauris.
+                    </p>
+                    <img alt="Foto del post" src="img/wallpaper.jpg" height="720" width="1280">
+                    </div>
+                </div>
+                <div>
+                    <h4>Robo</h4>
+                    <img alt="Foto Profilo" src="img/robo.jpg" width="100" height="100">
+                    <div>
+                    <p>
+                        Pellentesque nec enim ultricies, viverra magna eget, commodo lacus. Vestibulum pharetra erat ac odio malesuada, vel cursus lectus vehicula. Aenean quis metus at massa vestibulum viverra at eget mi. Aenean dapibus, diam hendrerit laoreet feugiat, diam lacus bibendum velit, vel congue ligula enim vel est. Integer eu tellus fringilla, commodo nisi ut, ornare lorem. Nam lobortis quis risus at vehicula. Vivamus sed lacus nunc. Etiam tincidunt libero nisl, eget varius lectus blandit sed. Maecenas viverra, diam in tempor lobortis, magna risus maximus sapien, vel faucibus nunc ante in est. Nunc blandit imperdiet dolor eu sagittis. Vestibulum commodo fermentum magna at pellentesque. Phasellus cursus.
+                    </p>
+                    <p>Dove ho trovato la mia
+                        <a href="https://www.google.it/search?safe=off&hl=it&q=mascaras+de+payasos+batman&tbm=isch&imgil=Mrkm0ll1W44XkM%253A%253Bz81yD5d1rPiHTM%253Bhttp%25253A%25252F%25252Fwww.ebay.com%25252Fitm%25252FBatman-Joker-Henchman-Clown-Mask-GRUMPY-Adult-Dark-Knight-Bank-Robber-Gang-%25252F191805121621%25253F_ul%2525253DBO&source=iu&pf=m&tbs=simg:CAESuAIJYSe97iJbK4oarAILEKjU2AQaBggKCBcIPQwLELCMpwgaYgpgCAMSKOoSxRLmBs0G5wb5EugG8waoB-IG-yuHLKUj8D3xPf0rui2mLYYslDUaMIh8Fa9J6JbG-RLQKd5R7Q97haNGXjo2SUw19yDua4DyQqAkbbYhTnfJMQPIuHOWpiAEDAsQjq7-CBoKCggIARIErPB-IgwLEJ3twQkalQEKFwoEaGVhZNqliPYDCwoJL20vMDRoZ3RrChcKBWNsb3du2qWI9gMKCggvbS8wMXNmbAojChFoYWxsb3dlZW4gY29zdHVtZdqliPYDCgoIL20vMHB0c3AKIQoPcGVyZm9ybWluZyBhcnRz2qWI9gMKCggvbS8wNXFqYwoZCgdjb3N0dW1l2qWI9gMKCggvbS8wMjUweAw&fir=Mrkm0ll1W44XkM%253A%252Cz81yD5d1rPiHTM%252C_&usg=__cjcZ7CHJTY2UmfUfVoLEeCdwo88%3D&biw=1280&bih=855&ved=0ahUKEwjQ143ZgeXSAhVGVywKHZCfCMsQyjcISw&ei=jcHPWJDdJsausQGQv6LYDA#imgrc=Mrkm0ll1W44XkM:">immagine</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
-</html>

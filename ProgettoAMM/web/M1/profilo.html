@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <!--titolo della scheda-->
+        <title>Profilo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matteo Atzeni">
+        <meta name="keywords" content="Pagina del Profilo">
     </head>
+
     <body>
-        <div>TODO write content</div>
+        <!--header contenente in titolo della pagina-->
+        <header>
+            <div id="title">
+                <h1>Profilo</h1>
+            </div>
+        </header>
+
+        <!--Barra di navigazione tra le pagine del sito-->
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        
+        
+        <div id="divBody">
+            <form action="#" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" value="Il tuo nome"/>
+            <br />
+            <label for="congome">Cognome</label>
+            <input type="text" name="congome" id="congome" value="Il tuo cognome"/>
+            <br />
+            <label for="urlimg">Url immagine</label>
+            <input type="url" name="urlimg" id="urlimg"/>
+            <br /> 
+            <label for="presentazione">Presentazione</label>
+            <textarea rows="4" cols="20" name="presentazione" id="presentazione" >Inserisci qui la frase di presentazione</textarea>
+            <br />
+            <label for="datanascita">Data di nascita</label>
+            <input type="date" name="datanascita" id="datanascita"/>
+            <br />
+            <label for="psw">Password</label>
+            <input type="password" name="psw" id="psw"/>
+            <br />
+            <label for="pswconf">Conferma Password</label>
+            <input type="password" name="pswconf" id="pswconf"/>
+            <br />
+            </form>
+        </div>
+        
     </body>
-</html>

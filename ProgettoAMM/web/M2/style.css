@@ -1,0 +1,188 @@
+/* 
+    Created on : 28-mar-2017, 11.56.13
+    Author     : Matteo
+*/
+nav {
+    background-color: #e4e4e4;
+    font: 17px/20px "Open Sans", Arial, sans-serif;
+}
+
+body {
+    background-color: #e4e4e4;
+    font: 15.5px/25px "Open Sans", Arial, sans-serif;
+}
+
+h1 {
+    background-color: #e4e4e4;
+    font: 27px/30px "Open Sans", Arial, sans-serif;
+}
+
+h2 {
+    background-color: #e4e4e4;
+    font: 23px/25px "Open Sans", Arial, sans-serif;
+}
+
+h3 {
+    background-color: #e4e4e4;
+    font: 19px/20px "Open Sans", Arial, sans-serif;
+}
+
+.post{
+    background: #cccccc;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+ul li {
+    float: left;
+    border-right: 1px solid whitesmoke;
+}
+ul li:last-child {
+    border-right: none;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #00cc00;
+}
+
+.active{
+    background-color: #00cc00;
+}
+
+
+#title{
+    display: block;
+    background-color: #009900;
+    text-align: center;
+    float: left;
+    border-right: 2px solid whitesmoke;
+    
+}
+#title h1{
+    color: white;
+    background-color: #009900;
+    font: 17px/25px "Open Sans", Arial, sans-serif;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.picProf{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.picProf img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.picPost{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    align-content: center;
+}
+
+.picPost img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+#form{
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+#form label{
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+    line-height: 2.35;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+#form input{
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+#form textarea{
+    height: 25px;
+    width: 60%;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+}
+
+form button{
+    width: 100%;
+}
+
+#loginForm{
+    position: relative;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+#loginForm label{
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+    line-height: 2.35;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+#loginForm input{
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+#loginForm  div button{
+    width: 95%;
+    margin-left: 7px;
+    margin-right: 7px;
+}

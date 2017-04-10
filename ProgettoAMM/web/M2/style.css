@@ -2,9 +2,13 @@
     Created on : 28-mar-2017, 11.56.13
     Author     : Matteo
 */
+
+/*Generico*/
 nav {
     background-color: #e4e4e4;
     font: 17px/20px "Open Sans", Arial, sans-serif;
+    width: auto;
+    margin-right: 7px;
 }
 
 body {
@@ -25,11 +29,6 @@ h2 {
 
 h3 {
     font: 19px/20px "Open Sans", Arial, sans-serif;
-}
-
-.post{
-    background: #cccccc;
-    margin-top: 5px;
 }
 
 nav ul {
@@ -56,7 +55,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-
 nav li a:hover {
     background-color: #00cc00;
 }
@@ -64,13 +62,10 @@ nav li a:hover {
 .active{
     background-color: #00cc00;
 }
+/*Generico*/
 
  #sommario h3{
     font-size: 25px;
-}
-
-#sommario ol{
-    
 }
 
 #sommario a:link{
@@ -95,6 +90,7 @@ nav li a:hover {
     text-align: center;
     float: left;
     border-right: 2px solid whitesmoke;
+    margin-left: 7px;
     
 }
 #title h1{
@@ -103,6 +99,7 @@ nav li a:hover {
     font: 17px/25px "Open Sans", Arial, sans-serif;
     padding-right: 16px;
     padding-left: 16px;
+    width: 120px;
 }
 
 .picProf{
@@ -143,11 +140,10 @@ nav li a:hover {
 }
 
 #form{
-    position: relative;
+    float: left;
     width: 500px;
-    margin-left: auto;
+    margin-left: 7px;
     margin-right: auto;
-    margin-top: 7px;
 }
 
 #form div{
@@ -199,8 +195,7 @@ form button{
     padding: 5px;
     position: absolute;
     right: 0px;
-    vertical-align: middle;
-    display: inline-block;
+    margin-right: 7px;
 
 }
 
@@ -208,4 +203,56 @@ form button{
     width: 95%;
     margin-left: 7px;
     margin-right: 7px;
+}
+
+#sidebar{
+    width: 143px;
+    height: 1000px;
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+#postList{
+    margin-left: 160px;
+    position: absolute;
+}
+
+.post{
+    padding: 10px 10px;
+    border-radius: 5px;
+    /*margin-left: 10px;*/
+    margin-bottom: 7px;
+    background: #cccccc;
+}
+
+h4{
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+form{
+    background-color: #cccccc;
+    border-radius: 5px;
+    padding: 7px 7px;
+}
+
+#divBody{
+    margin: 7px 7px;
+    position: relative;
+}
+
+#descrizione{
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #cccccc;
+}
+
+#sommario{
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    margin: 7px 7px;
 }

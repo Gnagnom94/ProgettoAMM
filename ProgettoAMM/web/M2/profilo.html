@@ -11,58 +11,66 @@
     </head>
 
     <body>
-        <!--header contenente in titolo della pagina-->
-        <header>
-            <div id="title">
-                <h1>NerdBook</h1>
-            </div>
-        </header>
+        <div id="page">
+            <!--header contenente in titolo della pagina-->
+            <header>
+                <div id="title">
+                    <h1>NerdBook</h1>
+                </div>
+            </header>
 
-        <!--Barra di navigazione tra le pagine del sito-->
-        <nav>
-            <ul>
-                <li><a class="active" href="profilo.html">Profilo</a></li>
-                <li><a href="bacheca.html">Bacheca</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="descrizione.html">Descrizione</a></li>
-            </ul>
-        </nav>
-        
-        
-        <div id="divBody">
-            <div id="form">
-                <form action="#" method="post">
-                    <div>
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" />
-                    </div>
-                    <div>
-                    <label for="congome">Cognome</label>
-                    <input type="text" name="congome" id="congome" />
-                    </div>
-                    <div>
-                    <label for="urlimg">Url immagine</label>
-                    <input type="url" name="urlimg" id="urlimg"/>
-                    </div>
-                    <div>
-                    <label for="presentazione">Presentazione</label>
-                    <textarea rows="2" cols="20" name="presentazione" id="presentazione" ></textarea>
-                    </div>
-                    <div>
-                    <label for="datanascita">Data di nascita</label>
-                    <input type="date" name="datanascita" id="datanascita"/>
-                    </div>
-                    <div>
-                    <label for="psw">Password</label>
-                    <input type="password" name="psw" id="psw"/>
-                    </div>
-                    <div>
-                    <label for="pswconf">Conferma Password</label>
-                    <input type="password" name="pswconf" id="pswconf"/>
-                    </div>
-                    <button type="submit">Invia</button>
-                </form>
+            <!--Barra di navigazione tra le pagine del sito-->
+            <nav>
+                <ul>
+                    <li><a class="active" href="profilo.html">Profilo</a></li>
+                    <li><a href="bacheca.html">Bacheca</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="descrizione.html">Descrizione</a></li>
+                </ul>
+            </nav>
+
+            <div id="divBody">
+                <div id="sidebar">
+                <h2>Persone</h2>
+                <ul>
+                    <li>Gianni</li>
+                    <li>Giovanni</li>
+                    <li>Giosualdo</li>
+                </ul>
+                </div>
+                <div id="form">
+                    <form action="#" method="post">
+                        <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" />
+                        </div>
+                        <div>
+                        <label for="congome">Cognome</label>
+                        <input type="text" name="congome" id="congome" />
+                        </div>
+                        <div>
+                        <label for="urlimg">Url immagine</label>
+                        <input type="url" name="urlimg" id="urlimg"/>
+                        </div>
+                        <div>
+                        <label for="presentazione">Presentazione</label>
+                        <textarea rows="2" cols="20" name="presentazione" id="presentazione" ></textarea>
+                        </div>
+                        <div>
+                        <label for="datanascita">Data di nascita</label>
+                        <input type="date" name="datanascita" id="datanascita"/>
+                        </div>
+                        <div>
+                        <label for="psw">Password</label>
+                        <input type="password" name="psw" id="psw"/>
+                        </div>
+                        <div>
+                        <label for="pswconf">Conferma Password</label>
+                        <input type="password" name="pswconf" id="pswconf"/>
+                        </div>
+                        <button type="submit">Invia</button>
+                    </form>
+                </div>
             </div>
         </div>
-        
     </body>

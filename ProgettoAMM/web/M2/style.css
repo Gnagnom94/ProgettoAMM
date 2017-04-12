@@ -4,255 +4,770 @@
 */
 
 /*Generico*/
-nav {
+
+/*RESP*/
+@media only screen and (min-width: 1024px)
+{
+    nav {
     background-color: #e4e4e4;
     font: 17px/20px "Open Sans", Arial, sans-serif;
     width: auto;
     margin-right: 7px;
-}
+    }
 
-body {
+    body {
+        background-color: #e4e4e4;
+        font: 15.5px/25px "Open Sans", Arial, sans-serif;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    h1 {
+        font: 27px/30px "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    h2 {
+        font: 23px/25px "Open Sans", Arial, sans-serif;
+    }
+
+    h3 {
+        font: 19px/20px "Open Sans", Arial, sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+    }
+
+    nav ul li {
+        float: left;
+        border-right: 1px solid whitesmoke;
+    }
+    nav ul li:last-child {
+        border-right: none;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: #00cc00;
+    }
+
+    .active{
+        background-color: #00cc00;
+    }
+    /*Generico*/
+
+     #sommario h3{
+        font-size: 25px;
+        margin: 7px 7px;
+    }
+
+    #sommario a:link{
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #sommario a:visited{
+        font-size: 17px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    #sommario a:hover{
+        font-weight: bold;
+    }
+
+    #title{
+        display: block;
+        background-color: #009900;
+        text-align: center;
+        float: left;
+        border-right: 2px solid whitesmoke;
+        margin-left: 7px;
+
+    }
+    #title h1{
+        color: white;
+        background-color: #009900;
+        font: 17px/25px "Open Sans", Arial, sans-serif;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 120px;
+    }
+
+    .picProf{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .picProf img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+
+    .picPost{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    .picPost img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+
+    #form{
+        float: left;
+        width: 500px;
+        margin-left: 7px;
+        margin-right: auto;
+    }
+
+    #form div{
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #form label{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+    }
+    #form input{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        width: 48.7%;
+    }
+
+    #form textarea{
+        width: 49%;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+    }
+
+    form button{
+        width: 100%;
+    }
+
+    #loginForm{
+        position: relative;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+    }
+
+    #loginForm label{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+        vertical-align: middle;
+        display: inline-block;
+
+    }
+    #loginForm input{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        margin-right: 7px;
+
+    }
+
+    #loginForm  div button{
+        width: 95%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #sidebar{
+        width: 143px;
+        height: 1000px;
+        float: left;
+        padding: 5px;
+        font-size: 15px;
+        background-color: #cccccc;
+        border-radius: 5px;
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+
+    #postList{
+        margin-left: 160px;
+        position: absolute;
+    }
+
+    .post{
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-bottom: 7px;
+        background: #cccccc;
+    }
+
+    h4{
+        margin: 0px;
+        margin-bottom: 7px;
+    }
+
+    form{
+        background-color: #cccccc;
+        border-radius: 5px;
+        padding: 7px 7px;
+    }
+
+    #divBody{
+        margin: 7px 7px;
+        position: relative;
+    }
+
+    #descrizione{
+        padding: 7px 7px;
+        border-radius: 5px;
+        background-color: #cccccc;
+    }
+
+    #sommario{
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #cccccc;
+        margin: 7px 7px;
+    }
+
+    #page{
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    #defaultprofile{
+        float: left;
+    }
+
+    .formPropic{
+        float: left;
+        padding: 7px;
+        background-color: #cccccc;
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width: 480px)
+                    and (max-width: 1023px)
+{
+    nav {
     background-color: #e4e4e4;
-    font: 15.5px/25px "Open Sans", Arial, sans-serif;
-    margin-left: 7px;
-    margin-right: 7px;
-}
+    font: 17px/20px "Open Sans", Arial, sans-serif;
+    width: auto;
+    }
 
-h1 {
-    font: 27px/30px "Open Sans", Arial, sans-serif;
-    font-weight: bold;
-}
+    body {
+        background-color: #e4e4e4;
+        font: 15.5px/25px "Open Sans", Arial, sans-serif;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
 
-h2 {
-    font: 23px/25px "Open Sans", Arial, sans-serif;
-}
+    h1 {
+        font: 27px/30px "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+    }
 
-h3 {
-    font: 19px/20px "Open Sans", Arial, sans-serif;
-}
+    h2 {
+        font: 23px/25px "Open Sans", Arial, sans-serif;
+    }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-}
+    h3 {
+        font: 19px/20px "Open Sans", Arial, sans-serif;
+    }
 
-nav ul li {
-    float: left;
-    border-right: 1px solid whitesmoke;
-}
-nav ul li:last-child {
-    border-right: none;
-}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+    }
 
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    nav ul li {
+        float: left;
+        border-right: 1px solid whitesmoke;
+    }
+    nav ul li:last-child {
+        border-right: none;
+    }
 
-nav li a:hover {
-    background-color: #00cc00;
-}
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-.active{
-    background-color: #00cc00;
-}
-/*Generico*/
+    nav li a:hover {
+        background-color: #00cc00;
+    }
 
- #sommario h3{
-    font-size: 25px;
-}
+    .active{
+        background-color: #00cc00;
+    }
+    /*Generico*/
 
-#sommario a:link{
-    font-size: 15px;
-    text-decoration: none;
-    color: #000000;
-}
+     #sommario h3{
+        font-size: 25px;
+        margin: 7px 7px;
+    }
 
-#sommario a:visited{
-    font-size: 17px;
-    text-decoration: none;
-    color: #000000;
-}
+    #sommario a:link{
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+    }
 
-#sommario a:hover{
-    font-weight: bold;
-}
+    #sommario a:visited{
+        font-size: 17px;
+        text-decoration: none;
+        color: #000000;
+    }
 
-#title{
-    display: block;
-    background-color: #009900;
-    text-align: center;
-    float: left;
-    border-right: 2px solid whitesmoke;
-    margin-left: 7px;
+    #sommario a:hover{
+        font-weight: bold;
+    }
+
+    #title{
+        display: block;
+        background-color: #009900;
+        text-align: center;
+
+    }
+    #title h1{
+        color: white;
+        background-color: #009900;
+        font: 35px "Open Sans", Arial, sans-serif;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .picProf{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .picProf img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+
+    .picPost{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    .picPost img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+
+    #form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #form div{
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #form label{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+    }
+    #form input{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        width: 48.7%;
+    }
+
+    #form textarea{
+        width: 49%;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+    }
+
+    form button{
+        width: 100%;
+    }
+
+    #loginForm{
+        position: relative;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+    }
+
+    #loginForm label{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+        vertical-align: middle;
+        display: inline-block;
+
+    }
+    #loginForm input{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        margin-right: 7px;
+
+    }
+
+    #loginForm  div button{
+        width: 95%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #sidebar{
+        padding: 5px;
+        font-size: 15px;
+        background-color: #cccccc;
+        border-radius: 5px;
+        margin-top: 7px;
+    }
+
+    .post{
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-bottom: 7px;
+        background: #cccccc;
+    }
+
+    h4{
+        margin: 0px;
+        margin-bottom: 7px;
+    }
+
+    form{
+        background-color: #cccccc;
+        border-radius: 5px;
+        padding: 1%;
+    }
+
+    #divBody{
+        margin-top: 7px;
+    }
+
+    #descrizione{
+        padding: 7px 7px;
+        border-radius: 5px;
+        background-color: #cccccc;
+    }
+
+    #sommario{
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #cccccc;
+        margin-top: 7px;
+    }
+
+    #page{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .formPropic{
+        padding: 7px;
+        background-color: #cccccc;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    nav{
+        background-color: #e4e4e4;
+        font: 15px "Open Sans", Arial, sans-serif;
+        width: auto;
+    }
+    body {
+        background-color: #e4e4e4;
+        font: 15.5px/25px "Open Sans", Arial, sans-serif;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    h1 {
+        font: 27px/30px "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    h2 {
+        font: 23px/25px "Open Sans", Arial, sans-serif;
+    }
+
+    h3 {
+        font: 19px/20px "Open Sans", Arial, sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+    }
+
+    nav ul li {
+        float: top;
+        border-bottom: 1px solid whitesmoke;
+    }
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: #00cc00;
+    }
+
+    .active{
+        background-color: #00cc00;
+    }
+    #title{
+        display: block;
+        background-color: #009900;
+        text-align: center;
+
+    }
+    #title h1{
+        color: white;
+        background-color: #009900;
+        font: 25px "Open Sans", Arial, sans-serif;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
     
-}
-#title h1{
-    color: white;
-    background-color: #009900;
-    font: 17px/25px "Open Sans", Arial, sans-serif;
-    padding-right: 16px;
-    padding-left: 16px;
-    width: 120px;
-}
+    .picPost{
+        position: relative;
+        height: 185px;
+        overflow: hidden;
+        align-content: center;
+    }
 
-.picProf{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-}
+    .picPost img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+    .picProf{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
 
-.picProf img{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
+    .picProf img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      height: 100%;
+      width: auto;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+    }
+    
+    .post{
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-bottom: 7px;
+        background: #cccccc;
+    }
+    #sommario{
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #cccccc;
+        margin-top: 7px;
+    }
+    #sommario h3{
+        font-size: 25px;
+        margin: 7px 7px;
+    }
 
-.picPost{
-    position: relative;
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    align-content: center;
-}
+    #sommario a:link{
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+    }
 
-.picPost img{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
+    #sommario a:visited{
+        font-size: 17px;
+        text-decoration: none;
+        color: #000000;
+    }
 
-#form{
-    float: left;
-    width: 500px;
-    margin-left: 7px;
-    margin-right: auto;
-}
+    #sommario a:hover{
+        font-weight: bold;
+    }
+    
+    #descrizione{
+        margin-top: 2%;
+        padding: 7px 7px;
+        border-radius: 5px;
+        background-color: #cccccc;
+    }
+    
+    #sidebar{
+        padding: 5px;
+        font-size: 15px;
+        background-color: #cccccc;
+        border-radius: 5px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    
+    #form{
+        position: absolute;
+        right: 0px;
+        left: 0px;
+        padding: 1%;
+        background-color: #cccccc;
+        border-radius: 5px;
+    }
 
-#form div{
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+    #form div{
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        height: 40px;
+    }
 
-#form label{
-    font: 20px/25px "Open Sans", Arial, sans-serif;
-    line-height: 2.35;
-}
-#form input{
-    font: 20px/25px "Open Sans", Arial, sans-serif;
-    padding: 5px;
-    position: absolute;
-    right: 0px;
-    width: 48.7%;
-}
+    #form label{
+        font: 20px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    #form input{
+        font: 15px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        top: 2.5px;
+        bottom: 2.5px;
+        width: 48.7%;
+    }
 
-#form textarea{
-    width: 49%;
-    padding: 5px;
-    position: absolute;
-    right: 0px;
-}
+    #form textarea{
+        width: 49%;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+    }
 
-form button{
-    width: 100%;
-}
+    form button{
+        width: 100%;
+    }
+    
+    .formPropic{
+        padding: 7px;
+        background-color: #cccccc;
+        border-radius: 5px;
+    }
+    #page{
+        position: relative;
+    }
+    
+    #loginForm{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+        background-color: #cccccc;
+        border-radius: 5px;
+        padding: 1%;
+    }
 
-#loginForm{
-    position: relative;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7px;
-}
+    #loginForm label{
+        font: 20px "Open Sans", Arial, sans-serif;
+        line-height: 2.35;
+        vertical-align: middle;
+        display: inline-block;
 
-#loginForm label{
-    font: 20px/25px "Open Sans", Arial, sans-serif;
-    line-height: 2.35;
-    vertical-align: middle;
-    display: inline-block;
+    }
+    #loginForm input{
+        font: 20px/25px "Open Sans", Arial, sans-serif;
+        padding: 5px;
+        position: absolute;
+        right: 0px;
+        margin-right: 7px;
+        width: 50%;
+    }
 
-}
-#loginForm input{
-    font: 20px/25px "Open Sans", Arial, sans-serif;
-    padding: 5px;
-    position: absolute;
-    right: 0px;
-    margin-right: 7px;
-
-}
-
-#loginForm  div button{
-    width: 95%;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-
-#sidebar{
-    width: 143px;
-    height: 1000px;
-    float: left;
-    padding: 5px;
-    font-size: 15px;
-    background-color: #cccccc;
-    border-radius: 5px;
-}
-
-#postList{
-    margin-left: 160px;
-    position: absolute;
-}
-
-.post{
-    padding: 10px 10px;
-    border-radius: 5px;
-    /*margin-left: 10px;*/
-    margin-bottom: 7px;
-    background: #cccccc;
-}
-
-h4{
-    margin: 0px;
-    margin-bottom: 7px;
-}
-
-form{
-    background-color: #cccccc;
-    border-radius: 5px;
-    padding: 7px 7px;
-}
-
-#divBody{
-    margin: 7px 7px;
-    position: relative;
-}
-
-#descrizione{
-    padding: 5px 5px;
-    border-radius: 5px;
-    background-color: #cccccc;
-}
-
-#sommario{
-    padding: 5px 5px;
-    border-radius: 5px;
-    background-color: #cccccc;
-    margin: 7px 7px;
+    #loginForm  div button{
+        width: 95%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
 }
